@@ -5,6 +5,11 @@ Exercice Flask App
 
 - Python >= 3.8
 
+## Structure
+
+- web_app/models.py: where database models are specified.
+- web_app/views.py: where endpoints are defined.
+
 ## Running
 
 Install dependencies:
