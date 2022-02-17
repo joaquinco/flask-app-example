@@ -46,6 +46,9 @@ class User(db.Model):
 Then, next time you run the flask app the tables will be created to the sqlite databse
 automatically.
 
+> Important: the provided startup script does not handle changes to existing models, so adding fields to an existing
+model requires to delete the databse (`dev.db` file) or you can handle it with your prefered db migrations mechanism.
+
 ### Adding views
 
 Views are the endpoints exposed by your app. You can add them in two ways, by registering them
