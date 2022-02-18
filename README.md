@@ -25,6 +25,8 @@ python flask_app.py run
 
 This is a wrapper around flask module so you can use `--help` to see more options.
 
+You can test if it's working properly by going to the browser to the url `http://localhost:5000/healthcheck`.
+
 ## Developing
 
 ### Adding models
